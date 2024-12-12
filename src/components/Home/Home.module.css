@@ -1,0 +1,8 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    background-color: darkslateblue;
+    align-items: center;
+}
