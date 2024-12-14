@@ -1,11 +1,4 @@
-.headerContainer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 90px;
-    background-color: mediumpurple;
-    align-items: center;
-}
+
 .leftHeader {
     width: 20%;
     height: 100%;

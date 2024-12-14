@@ -1,9 +1,10 @@
 import styles from './Header.module.css';
+import globalStyles from 'E:/zxc/frontend/clothes-shop/src/App.module.css'
 
 export default function Header () {
     return (
         <>
-            <div className={styles.headerContainer}>
+            <div className={globalStyles.headerContainer}>
                 <div className={styles.leftHeader}>
                     <div className={styles.sidebarBtn}>side</div>   {/* отдельный компонент iconsize-button */}
                     <div className={styles.logo}>logo</div>

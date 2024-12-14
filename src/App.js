@@ -9,13 +9,15 @@ function App() {
     return (
         <Router>
             <Header/>
-            <div className={styles.bodyWrapper}>
+            <div className>
+                <div className={styles.bodyWrapper}>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/catalog" element={<Catalog/>}/>
                 </Routes>
             </div>
             <Footer/>
+            </div>
         </Router>
     );
 }
