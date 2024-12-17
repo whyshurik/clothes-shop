@@ -1,0 +1,20 @@
+.embla {
+    overflow: hidden;
+}
+.emblaContainer{
+    display: flex;
+    flex-direction: row;
+}
+.slideContainer {
+    padding-right: 10px;
+    justify-content: center;
+}
+.emblaViewport {
+    overflow: hidden;
+}
+.sliderImage {
+    height: 300px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
